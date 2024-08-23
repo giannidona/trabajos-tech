@@ -1,8 +1,8 @@
 ---
 import Title from "./Title.astro";
 
-const API_KEY = import.meta.env.KEY;
-const CHANNEL_ID = import.meta.env.ID;
+const API_KEY = import.meta.env.PUBLIC_KEY;
+const CHANNEL_ID = import.meta.env.PUBLIC_ID;
 const MAX_RESULTS = 8;
 
 async function obtenerVideos() {
