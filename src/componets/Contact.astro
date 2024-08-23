@@ -1,0 +1,57 @@
+---
+import Title from "./Title.astro";
+---
+
+<section id="contacto" class="w-[90%] mx-auto mb-20">
+  <Title title="CONTACTANOS" />
+  <div>
+    <form
+      class="bg-eRed rounded-lg px-3 py-5 md:w-[60%] lg:w-[40%] xl:w-[25%] mx-auto"
+      action=""
+    >
+      <div class="mb-3">
+        <div class="pb-1">
+          <label class="font-bold text-xl text-white" for="">Nombre</label>
+        </div>
+        <div>
+          <input
+            class="w-full border-none px-3 py-2 rounded"
+            type="text"
+            placeholder="nombre"
+          />
+        </div>
+      </div>
+      <div class="mb-3">
+        <div class="pb-1">
+          <label class="font-bold text-xl text-white" for="">Email</label>
+        </div>
+        <div>
+          <input
+            class="w-full border-none px-3 py-2 rounded"
+            type="email"
+            placeholder="email"
+          />
+        </div>
+      </div>
+      <div class="mb-3">
+        <div class="pb-1">
+          <label class="font-bold text-xl text-white" for="">Mensaje</label>
+        </div>
+        <div>
+          <textarea
+            class="w-full border-none px-3 py-2 rounded"
+            name=""
+            placeholder="mensaje"
+            id=""></textarea>
+        </div>
+      </div>
+      <div>
+        <button
+          type="submit"
+          class="bg-white text-eRed px-3 py-2 w-full font-bold text-xl rounded border-white border-2 hover:bg-eRed hover:text-white duration-300 ease-in-out transition"
+          >ENVIAR</button
+        >
+      </div>
+    </form>
+  </div>
+</section>
